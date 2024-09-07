@@ -1,74 +1,178 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.header, main, footer{
+
+.header,
+main,
+footer {
     width: 1100px;
     border: 1px solid red;
     margin: 50px auto;
 }
 
-header{
+header {
     height: 600px;
 }
 
-body{
+body {
     background-color: black;
     color: white;
     font-family: "Inter", sans-serif;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     /* height: 600px; */
 }
 
-.header h1{
-    color: rgb(230, 83, 60);;
+.header h1 {
+    color: rgb(230, 83, 60);
+    ;
 }
 
-.navbar{
+.navbar {
     display: flex;
 }
 
-.navbar li{
+.navbar li {
     list-style: none;
     padding: 20px 20px;
 }
 
-.navbar li a{
+.navbar li a {
     text-decoration: none;
     color: white;
 }
 
-.navbar button{
-   width: 75px;
-   height: 25px;
-   border: none;
-   border-radius: 20px;
-   margin-top: 18px;
-   margin-right: 15px;
-   background: rgb(230, 83, 60);
-   color: white;
+.navbar button {
+    width: 75px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 18px;
+    margin-right: 15px;
+    background: rgb(230, 83, 60);
+    color: white;
 }
 
-.join-video{
+.join-video {
     width: 1100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 0px auto;
 }
 
-.join{
-    width: 300px;
+.join {
+    width: 500px;
+    margin-top: 65px;
 }
 
-.join h1{
-    
+.join h1 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 75px;
 }
 
-.video img{
+.join span {
+    font-family: "Great Vibes", cursive;
+}
+
+.join p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.join button {
+    padding: 8px 34px 8px 42px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#join-btn-1 {
+    background: rgb(230, 83, 60);
+}
+
+#join-btn-2 {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.video img {
     height: 500px;
+    margin-right: 70px;
+   
+}
+.video{
+    position: relative;
+}
+
+.free-workout-videos {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 150px;
+    order: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 80px;
+    left: -80px;
+}
+
+.free-workout-videos p {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 11px;
+}
+
+.free-workout-videos h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.tutorial-video {
+    height: 70px;
+    width: 150px;
+    order: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    position: absolute;
+    left: 200px;
+    bottom: 330px;
+}
+
+.tutorial-video h1 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.tutorial-video p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 11px;
+
+}
+
+.red-logo {
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 5px;
 }
