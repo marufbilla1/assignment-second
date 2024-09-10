@@ -5,15 +5,10 @@
     margin: 0px;
 }
 
-.header,
-main,
-footer {
-    width: 1100px;
-    margin: 50px auto;
-}
-
 header {
     height: 600px;
+    width: 1100px;
+    margin: 50px auto;
 }
 
 body {
@@ -109,9 +104,10 @@ body {
 .video img {
     height: 500px;
     margin-right: 70px;
-   
+
 }
-.video{
+
+.video {
     position: relative;
 }
 
@@ -178,27 +174,155 @@ body {
 /* header section style end */
 
 
+/* habits section start here */
+.habits {
+    margin-top: 150px;
+    width: 1100px;
+    margin: 0 auto;
+}
 
+.habits-content {
+    text-align: center;
+}
+
+.habits-content-title {
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.habits-content-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    width: 600px;
+    margin: 0px auto;
+}
+
+.habits-images {
+    display: flex;
+}
+
+.habits-img {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.habits-img img {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.habits-img-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.habits-img-description {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+/* habit section style end here */
+
+/* run section style start here */
+.run {
+    max-width: 1100px;
+    margin: 100px auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+
+}
+
+.run-division {
+    max-width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.run-content {
+    width: 400px;
+}
+
+.run-content-title {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.run-content-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.run-btn {
+    padding: 12px 45px 12px 45px;
+    border-radius: 50px;
+    font-size: 14px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.run-image img {
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+/* run section style end here */
 
 
 /* responsive media querry */
-@media screen and (max-width: 500px){
-    .header{
-        max-width: 440px;
-        margin-bottom: 0px;
-        justify-content: space-between;
-        align-items: center;
+@media screen and (max-width: 500px) {
+    header {
+        height: 1000px;
+        max-width: 500px;
     }
 
-    .header h1{
+    .header {
+        width: 430px;
+        margin: 0 auto;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .header h1 {
         font-size: 40px;
         font-weight: 900px;
     }
-    .navbar{
+
+    .icon {
+        margin-top: 15px;
+        margin-right: 60px;
+    }
+
+    .navbar {
         display: none;
     }
 
-    .navbar button{
+    .navbar button {
         margin-left: 20px;
         margin-top: 30px;
         margin-bottom: 10px;
@@ -206,34 +330,84 @@ body {
 
     /* navbar responsive end here */
 
-    .join-video{
+    .join-video {
         max-width: 500px;
         flex-direction: column;
         /* justify-content: center;
         text-align: center; */
     }
 
-    .join{
+    .join {
         margin-left: 20px;
     }
 
-    .join p{
+    .join p {
         width: 400px;
     }
 
-    .video{
+    .video {
         margin-top: 45px;
-      margin-left: 100px;
+        margin-left: 90px;
     }
 
-    /* header section responsive end here */
+    /* habits section responsive start here */
 
+    .habits {
+        width: 500px;
+    }
+
+    .habits-images {
+        flex-direction: column;
+    }
+
+    .habits-content-description {
+        max-width: 450px;
+    }
+
+    /* habits section responsive end here */
+
+    /* run section responsive start here */
+    .run {
+        width: 400px;
+        height: 580px;
+        margin: 100px auto;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+    }
+
+    .run-division {
+        flex-direction: column;
+    }
+
+    .run-content {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .run-content-title{
+        font-weight: 30px;
+    }
+    .run-content-description{
+        margin-bottom: 10px;
+    }
+    .run-btn{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .run-image{
+
+    }
+    .run-image img{
+        height: 250px;
+        width: 300px;
+    }
+
+    /* run section responsive end here */
 }
 
 
-@media  screen and (min-width: 501px) and (max-width: 1280px){
-    .icon{
+@media screen and (min-width: 501px) and (max-width: 1280px) {
+    .icon {
         display: none;
     }
 }
-
