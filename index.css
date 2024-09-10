@@ -507,14 +507,32 @@ body {
         margin-bottom: 25px;
     }
 
-    .run-image {}
-
     .run-image img {
         height: 250px;
         width: 300px;
     }
 
     /* run section responsive end here */
+
+    /* bmi section responsive start here */
+    .bmi{
+        width: 500px;
+    }
+
+    .bmi-content{
+        width: 500px;
+        margin-left: 20px;
+    }
+    .bmi-division{
+        flex-direction: column;
+        width: 500px;
+    }
+    .bmi-chart{
+        margin-left: 20px;
+    }
+    .bmi-calculator{
+        margin-left: 20px;
+    }
 }
 
 
