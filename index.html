@@ -96,18 +96,21 @@
                 <div class="run-image">
                     <img src="images/run.jpg" alt="">
                 </div>
-            
+
             </div>
         </section>
         <!-- run section end here -->
 
         <section class="bmi">
-            <h1>BMI Calculator</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <div class="bmi-content">
+                <h1 class="bmi-title">BMI Calculator</h1>
+                <p class="bmi-description">We believe fitness should be accessible to everyone, everywhere, regardless of
+                    income or access to a gym.</p>
+            </div>
             <div class="bmi-division">
                 <div class="bmi-chart">
                     <h2 class="bmi-chart-title">BMI Calculator Chart</h2>
-                    <table>
+                    <table border="1px">
                         <tr>
                             <th>BMI</th>
                             <th>Weight Status</th>
@@ -131,22 +134,21 @@
                     </table>
                 </div>
                 <div class="bmi-calculator">
-                    <h1>Calculate your BMI</h1>
-                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    <h1 class="bmi-calculator-title">Calculate your BMI</h1>
+                    <p class="bmi-calculator-description">We believe fitness should be accessible to everyone,
+                        everywhere, regardless of income or access to a gym. </p>
                     <form>
-                        <div>
-                            <input type="number">
-                            <input type="number">
+                        <div class="bmi-input">
+                            <input type="number" placeholder="Height/cm">
+                            <input type="number" placeholder="Weight/kg">
+                            <input type="number" placeholder="Age">
+                            <input type="number" placeholder="Sex">
                         </div>
-                        <div>
-                            <input type="number">
-                            <input type="number">
-                        </div>
-                        <div>
-                            <input type="text">
+                        <div class="bmi-input-comment">
+                            <input type="text" placeholder="Select an activity factor">
                         </div>
                     </form>
-                    <button>Calculate</button>
+                    <button class="bmi-btn">Calculate</button>
                 </div>
             </div>
         </section>

@@ -293,6 +293,116 @@ body {
 
 /* run section style end here */
 
+/* bmi section style start here */
+.bmi {
+   
+}
+.bmi-content{
+    width: 670px;
+    margin: 0 auto;
+    
+}
+
+.bmi-title {
+    margin-top: 20px;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+}
+
+.bmi-description {
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.bmi-division {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    background: rgb(34, 34, 34);
+}
+
+.bmi-chart {
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+.bmi-chart-title {
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.bmi-chart th {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+}
+
+.bmi-chart td {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+
+}
+
+.bmi-calculator {
+    max-width: 450px;
+    margin-top: 40px;
+}
+
+.bmi-calculator-title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.bmi-calculator-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.bmi-input input {
+    padding: 12px 8px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bmi-input-comment input {
+    width: 363px;
+    padding: 14px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.bmi-btn {
+    font-size: 14px;
+    color: white;
+    padding: 10px 40px;
+    margin: 30px 3px 0px 3px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
 
 /* responsive media querry */
 @media screen and (max-width: 500px) {
@@ -384,20 +494,22 @@ body {
         margin-top: 20px;
     }
 
-    .run-content-title{
+    .run-content-title {
         font-weight: 30px;
     }
-    .run-content-description{
+
+    .run-content-description {
         margin-bottom: 10px;
     }
-    .run-btn{
+
+    .run-btn {
         width: 100%;
         margin-bottom: 25px;
     }
-    .run-image{
 
-    }
-    .run-image img{
+    .run-image {}
+
+    .run-image img {
         height: 250px;
         width: 300px;
     }
