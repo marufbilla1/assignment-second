@@ -432,7 +432,7 @@ body {
     letter-spacing: 0.3px;
 }
 
-.team-trainers{
+.team-trainers {
     max-width: 950px;
     height: 600px;
     border-radius: 18px;
@@ -509,6 +509,99 @@ body {
     margin-top: 230px;
 }
 
+/* team section style end here */
+/* footer section style start here */
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    height: 100%;
+    margin-top: 80px;
+
+}
+
+.footer-main-div {
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-bottom: 25px;
+    margin-left: 50px;
+}
+
+#fitness h1 {
+    font-style: italic;
+    color: rgb(230, 83, 60);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+#fitness p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+#menu-1 h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+
+#menu-1 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 280%;
+    letter-spacing: 5%;
+}
+
+#menu-2 h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+
+#menu-2 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 280%;
+    letter-spacing: 5%;
+}
+
+.footer-content {
+    width: 300px;
+}
+
+hr {
+    width: 950px;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+/* footer section style end here */
 /* responsive media querry */
 @media screen and (max-width: 500px) {
     header {
@@ -644,24 +737,43 @@ body {
 
     /* bmi section responsive end here */
     /* team section responsive start here */
-    .team{
+    .team {
         max-width: 500px;
     }
 
-    .team-heading{
+    .team-heading {
         width: 400px;
     }
-    .team-heading-title{}
-    .team-heading-description{
+
+    .team-heading-title {}
+
+    .team-heading-description {
         font-size: 11px;
     }
-    .team-trainers{
+
+    .team-trainers {
         max-width: 320px;
         height: 1820px;
     }
-    .team-img{
+
+    .team-img {
         width: 280px;
         height: 280px;
+    }
+
+    /* team section responsive end here */
+    /* footer section responsive start here */
+    .footer-main-div{
+        flex-direction: column;
+        max-width: 500px;
+        padding-left: 25px;
+    }
+
+    .footer-content{
+        margin-bottom: 20px;
+    }
+    hr{
+        max-width: 350px;
     }
 }
 
