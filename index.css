@@ -294,13 +294,12 @@ body {
 /* run section style end here */
 
 /* bmi section style start here */
-.bmi {
-   
-}
-.bmi-content{
+.bmi {}
+
+.bmi-content {
     width: 670px;
     margin: 0 auto;
-    
+
 }
 
 .bmi-title {
@@ -312,7 +311,7 @@ body {
 }
 
 .bmi-description {
-    
+
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
@@ -402,6 +401,106 @@ body {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: none;
+}
+
+/* bmi section styles end here */
+/* team section start here */
+
+.team {
+    margin-top: 100px;
+}
+
+.team-heading {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.team-heading-title {
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.team-heading-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.team-trainers{
+    max-width: 950px;
+    height: 600px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-img {
+    margin: 10px;
+    width: 290px;
+    height: 280px;
+    border-radius: 8px;
+    position: relative;
+}
+
+#team-img-box1 {
+    background-image: url('images/trainer1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#team-img-box2 {
+    background-image: url('images/trainer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#team-img-box3 {
+    background-image: url('images/trainer3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#team-img-box4 {
+    background-image: url('images/trainer4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#team-img-box5 {
+    background-image: url('images/trainer5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#team-img-box6 {
+    background-image: url('images/trainer6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.team-trainer-name {
+    position: absolute;
+    margin-top: 250px;
+}
+
+.team-trainer-title {
+    position: absolute;
+    margin-top: 230px;
 }
 
 /* responsive media querry */
@@ -515,23 +614,26 @@ body {
     /* run section responsive end here */
 
     /* bmi section responsive start here */
-    .bmi{
+    .bmi {
         width: 500px;
     }
 
-    .bmi-content{
+    .bmi-content {
         width: 500px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
-    .bmi-division{
+
+    .bmi-division {
         flex-direction: column;
         width: 500px;
     }
-    .bmi-chart{
-        margin-left: 20px;
+
+    .bmi-chart {
+        margin-left: 40px;
     }
-    .bmi-calculator{
-        margin-left: 20px;
+
+    .bmi-calculator {
+        margin-left: 40px;
     }
 }
 
