@@ -437,7 +437,7 @@ body {
     height: 600px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -494,11 +494,17 @@ body {
 }
 
 .team-trainer-name {
+    margin-left: 5px;
     position: absolute;
-    margin-top: 250px;
+    margin-top: 260px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
 }
 
 .team-trainer-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 5px;
     position: absolute;
     margin-top: 230px;
 }
@@ -634,6 +640,28 @@ body {
 
     .bmi-calculator {
         margin-left: 40px;
+    }
+
+    /* bmi section responsive end here */
+    /* team section responsive start here */
+    .team{
+        max-width: 500px;
+    }
+
+    .team-heading{
+        width: 400px;
+    }
+    .team-heading-title{}
+    .team-heading-description{
+        font-size: 11px;
+    }
+    .team-trainers{
+        max-width: 320px;
+        height: 1820px;
+    }
+    .team-img{
+        width: 280px;
+        height: 280px;
     }
 }
 
